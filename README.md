@@ -23,7 +23,7 @@ First phase of SYROP project aiming to predict the binding energy between cyclod
 
 ## Project Organization
 
-*These folders are not available in GitHub due to size constraints, but are available at [4TU Repository](https://doi.org/10.4121/a5051137-a93d-433e-9cfe-50980247930c). These folders can be downloaded and inserted into the downloaded Github repository for seamless use. Notably, when downloading the complete repository from 4TU, all analyses are complete, including representation and figure generation, reducing the need to perform many of the pipeline steps described below.
+**IMPORTANT** These folders are not available in GitHub due to size constraints, but are available at [4TU Repository](https://doi.org/10.4121/a5051137-a93d-433e-9cfe-50980247930c). These folders can be downloaded and inserted into the downloaded Github repository for seamless use. Notably, when downloading the complete repository from 4TU, all analyses are complete, including representation and figure generation, reducing the need to perform many of the pipeline steps described below.
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
@@ -130,14 +130,14 @@ This downloads the dataset from [Zenodo](https://zenodo.org/records/7575539) and
 
 Two external validation datasets must be downloaded manually:
 
-#### Cyclodextrin Validation Dataset
-- **Source:** [Provide URL or DOI]
-- **Download Location:** Place CSV file in `data/external/validation/cd_val/`
+#### PFAS Validation Dataset
+- **Source:** [https://doi.org/10.1021/acs.jpcb.7b05901](https://doi.org/10.1021/acs.jpcb.7b05901)
+- **Download Location:** Place CSV file in `data/external/validation/pfas_val/`
 - **Required Columns:** `Host`, `Guest`, `Binding_Energy` (in kJ/mol)
 
-#### PFAS Validation Dataset
-- **Source:** [Provide URL or DOI]
-- **Download Location:** Place CSV file in `data/external/validation/pfas_val/`
+#### Cyclodextrin Validation Dataset
+- **Source:** [https://doi.org/10.1016/j.hazadv.2025.100904](https://doi.org/10.1016/j.hazadv.2025.100904)
+- **Download Location:** Place CSV file in `data/external/validation/cd_val/`
 - **Required Columns:** `Host`, `Guest`, `Binding_Energy` (in kJ/mol)
 
 After downloading both datasets, canonicalize SMILES strings:
