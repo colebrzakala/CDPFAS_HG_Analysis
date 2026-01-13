@@ -1,4 +1,4 @@
-# CD Host Guest
+# Cyclodextrin-PFAS Host-Guest Analysis
 
 First phase of SYROP project aiming to predict the binding energy between cyclodextrins and relevant organic compounds, including PFAS, in a host-guest complex.
 
